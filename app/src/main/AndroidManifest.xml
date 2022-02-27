@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ccpc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoy"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ccpc">
+        <activity
+            android:name=".add_interview"
+            android:exported="false" />
+        <activity
+            android:name=".add_industrycorporate"
+            android:exported="false" />
+        <activity
+            android:name=".add_softskill"
+            android:exported="false" />
+        <activity
+            android:name=".add_cv"
+            android:exported="false" />
+        <activity
+            android:name=".add_entrepreneurship"
+            android:exported="false" />
+        <activity
+            android:name=".add_industryvisits"
+            android:exported="false" />
+        <activity
+            android:name=".add_jobopportunities"
+            android:exported="false" />
+        <activity
+            android:name=".add_jobassistance"
+            android:exported="false" />
+        <activity
+            android:name=".add_offcampus"
+            android:exported="false" />
+        <activity
+            android:name=".add_accesstoourcorporate"
+            android:exported="false" />
+        <activity
+            android:name=".add_career"
+            android:exported="false" />
+        <activity
+            android:name=".add_webinars"
+            android:exported="false" />
+        <activity
+            android:name=".add_internships"
+            android:exported="false" />
+        <activity
+            android:name=".welcomeuser"
+            android:exported="false" />
+        <activity
+            android:name=".username"
+            android:exported="false" />
+        <activity
+            android:name=".reg"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

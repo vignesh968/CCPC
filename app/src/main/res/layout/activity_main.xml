@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".8">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logoy" />
+
+    </RelativeLayout>
+
+    <ScrollView
+
+        android:layout_weight=".2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+
+                android:text="INTERNSHIPS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                android:layout_marginTop="5dp"
+                tools:text="INTERNSHIPS" />
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+
+                android:text="WEBINARS/SEMINARS/WORKSHOPS BY EXPERTS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                tools:text="WEBINARS/SEMINARS/WORKSHOPS BY EXPERTS" />
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+                android:text="CAREER GUIDANCE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                tools:text="CAREER GUIDANCE" />
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+                android:text="ACCESS TO OUR CORPORATE SYSTEMS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                tools:text="ACCESS TO OUR CORPORATE SYSTEMS" />
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+                android:text="OFF-CAMPUS PLACEMENT UPDATES"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                tools:text="OFF-CAMPUS PLACEMENT UPDATES" />
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+                android:text="JOB ASSISTANCE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                tools:text="JOB ASSISTANCE" />
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+                android:text="JOB OPPORTUNITIES With Us"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                tools:text="JOB OPPORTUNITIES With Us" />
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+                android:text="INDUSTRY VISITS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                tools:text="INDUSTRY VISITS" />
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+                android:text="ENTREPRENEURSHIP SUPPORT"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                tools:text="ENTREPRENEURSHIP SUPPORT" />
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+                android:text="CV BUILDING ASSISTANCE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                tools:text="CV BUILDING ASSISTANCE" />
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+                android:text="SOFT/INTERPERSONAL/LIFE SKILLS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                tools:text="SOFT/INTERPERSONAL/LIFE SKILLS" />
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+                android:text="INTERVIEW PREPARATION ASSISTANCE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                tools:text="INTERVIEW PREPARATION ASSISTANCE" />
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:background="@drawable/roundstyle"
+                android:text="INDUSTRY AND CORPORATE EXPOSURE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                app:backgroundTint="#25527A"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.642"
+                tools:text="INDUSTRY AND CORPORATE EXPOSURE" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

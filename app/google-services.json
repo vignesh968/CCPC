@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "13399607611",
+    "project_id": "cloud--counselage",
+    "storage_bucket": "cloud--counselage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13399607611:android:ad98de1adb481171f10f1e",
+        "android_client_info": {
+          "package_name": "com.example.ccpc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13399607611-8kd2781p7lpnss8kdc8t66n9rs53ubto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ9sjByjc1CvKS7zYxuk6M-MNnQh-Zf9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13399607611-8kd2781p7lpnss8kdc8t66n9rs53ubto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

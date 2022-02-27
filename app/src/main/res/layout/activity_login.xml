@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_shade"
+    tools:context=".login">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idusername"
+        style="@style/textinputlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/enter_user_name"
+        android:padding="5dp"
+        android:textColorHint="@color/white"
+        app:hintTextColor="@color/white"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idedtusername"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:importantForAutofill="no"
+            android:textSize="14sp"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idpass"
+        style="@style/textinputlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/enter_your_password"
+        android:padding="5dp"
+        android:layout_below="@id/idusername"
+        android:textColorHint="@color/white"
+        app:hintTextColor="@color/white"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ideditpass"
+
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:importantForAutofill="no"
+            android:textSize="14sp"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/idpass"
+        android:textAllCaps="false"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:id="@+id/login"
+        android:background="@drawable/custom_button"
+        />
+
+    <TextView
+        android:id="@+id/idlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="New User?Register Here"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:id="@+id/idforget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idlogin"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Forgot Password ?"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:id="@+id/loading"
+        android:indeterminateDrawable="@drawable/progressbar"
+        android:visibility="gone"/>
+</RelativeLayout>
